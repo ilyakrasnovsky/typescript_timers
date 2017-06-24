@@ -2,7 +2,7 @@ import { ITimerCallbackFunction } from './ITimerCallbackFunction';
 
 export interface ITimerConstructor
 {
-	new (callback : ITimerCallbackFunction, interval : number);
+	new (callback : ITimerCallbackFunction, interval : number) : ITimer;
 }
 
 export interface ITimer
